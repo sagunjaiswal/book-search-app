@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+
+.card {
+  margin: 0 auto;
+  float: none;
+  font-style: italic;
+  color: #574b90;
+}
+.heading {
+  font-family: "Monoton", cursive;
+  font-size: 35px;
+  line-height: 140px;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #071a52;
+}
+.search-bar {
+  width: 30%;
+  padding: 10px;
+  border: 2px solid #17b978;
+  color: #17b978;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  margin-left: 30%;
+}
+.search-bar:focus {
+  outline-color: #071a52 !important;
+}
+.search-btn {
+  width: 4rem;
+
+  padding: 10px 20px;
+  background-color: #fc85ae;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+.text {
+  font-size: 13px;
+  margin-left: -5%;
+
+  color: gray;
+}
+.card-style {
+  width: 12rem;
+  height: 25rem;
+}
+.card-image {
+  width: 1rem;
+  height: 7rem;
+}
+.results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
